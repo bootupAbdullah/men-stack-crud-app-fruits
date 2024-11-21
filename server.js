@@ -22,8 +22,6 @@ mongoose.connection.on("connected", () => {
 // const Fruit = require("./models/fruit.js");
 
 const fruitsCtrl = require("./controllers/fruits");
-const { addNewFruit } = require('./controllers/fruits');
-const { showPage } = require('./controllers/fruits');
 
 // <------------------------------------------- Middleware ------------------------------------------------------>
 
