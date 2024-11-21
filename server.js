@@ -1,9 +1,9 @@
 // <------------------------------------------- Imports and Configuration ------------------------------------------------------>
 
 const express = require('express')
-const dotenv = require("dotenv"); // require package
+const dotenv = require("dotenv"); 
 dotenv.config(); // Loads the environment variables from .env file
-const mongoose = require("mongoose"); // require package
+const mongoose = require("mongoose");
 const methodOverride = require('method-override');
 const morgan = require('morgan');
 const app = express();
